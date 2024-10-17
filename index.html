@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Login Page</title>
+
+    <style type="text/css">
+        body {
+            color:#2D0320;
+            font-family:'serif', Times New Roman
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background: #392B58;
+            color: white;
+        }
+
+        .container {
+            max-width: 350px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #F4E4BA;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container input[type="username"],
+        .container input[type="password"],
+        .container input[type="file"] {
+            width: 88%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: 'serif', Times New Roman
+        }
+
+        .container input[type="submit"] {
+            width: 95%;
+            padding: 10px;
+            color: white;
+            background: #392B58;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.4s ease; 
+        }
+        .container input[type="submit"]:hover {
+            background: #2D0320;
+        }
+        
+        .defpic {
+            display: block; 
+            margin: 30px auto; 
+            height: auto; 
+            width: 100px; 
+            border-radius: 50%; 
+            object-fit: cover;
+        }
+
+         .Footer {
+            text-align: center;
+            margin: 0;
+            padding: 1px;
+            background: #DFF3E3;
+            color: #2D0320;
+       
+      
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to my Website :)</h1>
+    </div> 
+
+    <div class="container">   
+        <img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" class="defpic">
+        <h2>Login</h2> 
+        <form id="loginForm">
+            
+            <h4>Username:</h4>
+             <input type="Username" name="uname" placeholder="Enter username" required>
+
+            <h4>Password:</h4> 
+            <input type="password" id="passwordInput" name="password" placeholder="Enter secret code" required> 
+            
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    
+    </div>
+    <div class="Footer">
+        <h4>Ashley Rose C. Gozum | 9-Emerald</h4>
+    </div>
+    </script>
+</body>
+</html>
